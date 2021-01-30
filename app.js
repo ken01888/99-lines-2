@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let btn =document.createElement('button')
     let text = document.createTextNode("Sing!")
     btn.appendChild(text);
-    btn.className = "btn btn-success btn-large"
+    btn.className = "btn btn-primary btn-lg"
     document.body.appendChild(btn);
     btn.addEventListener("click",function(){
         let friends= ["Mike","Mickey","Mendy","Mani","Marvin"];
